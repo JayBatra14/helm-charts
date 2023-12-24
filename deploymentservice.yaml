@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: service-a
+  namespace: helm-deployment
 data:
   path-a.html: |
     "/path-a.html" on service-a
